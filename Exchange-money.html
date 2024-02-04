@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange money</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Moul&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="3Exmoney.css">
+</head>
+<body>
+    <div id="txtcontainer">
+        
+        <div id="txtbox1">
+            <p>ការប្តូរប្រាក់ពី​ ដុល្លា ទៅ ខ្មែរ</p>
+
+        </div>
+        <div id="txtbox2">
+            <div id="boxk">
+                <div id="txtk">
+                    <h3>លុយដុល្លា</h3>
+                </div>
+                <input type="number" id="kh" onkeyup="result()">
+            </div>
+            <div id="boxdolla">
+                <div id="txtdolla">
+                    <h3>លុយខ្មែរ</h3>
+                </div>
+                ​​<input type="number" id="dolla" placeholder="b" value="0">
+            </div>
+        </div>   
+    </div>
+    <br><br><br>
+    <div class="btnback">
+        <a  class="button" href="index.html">
+        Back
+        </a>
+    </div>
+</body>
+
+<script>
+    
+    function result(){
+        var txtKh= document.getElementById('kh').value;
+        var txtUs= document.getElementById('dolla');
+        txtUs.value = txtKh * 4100;
+    }
+</script>
+</html>

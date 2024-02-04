@@ -1,0 +1,234 @@
+#txtcontainer{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(11, 234, 167);
+    opacity: 70%;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 10px;
+    border-radius: 10px;
+    
+}
+ #txtbox1{
+    width:80%;
+    height: 20%;
+    background-color:rgb(255,0,0);
+    border: 10px solid blue;
+    border-radius:50PX ;
+    margin: auto;
+    margin-top: 60px;
+    
+}
+#txtbox2{
+    width: 80%;
+    height: 30%;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 20px;
+    
+}
+#boxk{
+    width: 100%;
+    height: 50%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#boxdolla{
+    width: 100%;
+    height: 50%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* #boxresult{
+    width: 100%;
+    height: 33%;
+    /* background-color: black; */
+    
+
+#txtk{
+    width: 20%;
+    height: 50%;
+    /* background-color: gold; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#kh{
+    width: 65%;
+    height: 75%;
+    /* background-color: green; */
+    float: left;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color:greenyellow;
+}
+#txtdolla{
+    width: 20%;
+    height: 50%;
+    /* background-color: rgb(152, 145, 108);  */
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ #dolla{
+    width: 65%;
+    height: 75%;
+    /* background-color: rgb(84, 142, 84);  */
+    float: left;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: yellow;
+    
+}
+#btnresult{
+    width: 25%;
+    height: 100%;
+    /* background-color: gold; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Clickresult{
+    width: 75%;
+    height: 60%;
+/* background-color: green;  */
+    float: left;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+}
+p{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     color: rgb(253, 253, 253); 
+    font-family: 'Moul', serif;
+}
+#text{
+    font-size: 18px;
+    font-family: 'Moul', serif;
+    /* color: rgb(5, 5, 2); */
+    float: left;
+}
+h3{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 2, 2);
+    font-family: 'Moul', serif;
+}
+.btnback{
+    /* width: 150px;
+    height: 50px; */
+    /* background-color: red; */
+    /* border-radius: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 50px;
+
+}
+a{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.button {
+  position: relative;
+  width: 90px;
+  height: 20px;
+  background-color:rgb(45, 24, 24);
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  padding:10px;
+  gap: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  left: -9px;
+  top: -1px;
+  margin: auto;
+  width: 128px;
+  height: 48px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(200px);
+}
+
+.button:hover::after {
+  filter: blur(100px);
+}
+
+.button:hover::before {
+  transform: rotate(-180deg);
+}
+
+.button:active::before {
+  scale: 0.7;
+}
+.aa{
+    width: 200px;
+    height: 200px;
+    background-color: #00dbde;
+}
+@media screen and (max-width:720px) {
+    #txtcontainer{
+        width: 90%;
+        height: 400px;
+    }
+    p{
+        font-size: 18px;
+        color: aliceblue;
+    }
+    h3{
+        font-size: 11px;
+        color: rgb(0, 0, 0);
+    }
+
+}
