@@ -108,3 +108,21 @@ p{
         transform: translate(0px,0px);
     }
 }
+@media screen and (max-width:720px) {
+    
+    .navbar-brand{
+        height: 130px;
+    }
+    .imgss{
+        width: 130px;
+        height: 130px;
+        animation-name: test2;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        margin-left: -12px;
+    }
+    .text1{
+        font-size: 20px;
+    
+    }
+}
